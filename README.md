@@ -14,10 +14,11 @@ Open Developer Command Prompt for Visual Studio
 Go into the project directory(Something like `C:\Users\YourUsername\source\repos\ParkingTicketConsoleApp`)
 Then run: `msbuild ParkingTicketConsoleApp.sln /p:Configuration=Release`
 ### To Run
-Go to the ParkingTicketConsoleApp/bin/Release/ where the Application is located and run ParkingTicketConsoleApp.exe
+Go to the project Directory(located somewhere like `C:\Users\YourUsername\source\repos\TicTacToe`)  
+Then go to TicTacToe/bin/Release/ where the Application is located and run TicTacToe.exe
 
 ### To Clean Build Files
-In the current directory, run `msbuild ParkingTicketConsoleApp.sln /t:Clean`
+In the current root directory, run `msbuild TicTacToe.sln /t:Clean`
 
 # License
 This project is licensed under GPLV3. See `LICENSE` for details.
